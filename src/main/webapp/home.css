@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+/*to change position of element*/
+	margin: 0;
+	padding: 0;
+    /*to change direction of text*/
+    text-align: center;
+    /*to make type of font and size*/
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    /*to change color of text*/
+	color: #061C37;
+    /*to change background of body*/
+	background: #1c478e;
+}
+*{
+	margin: 0 auto 0 auto;
+	
+}
+.header
+{
+    background:#061C37;
+    height:40px;
+    color: white;
+    
+        
+}
+.h1
+{
+    text-align: center;
+    padding-top:8px
+}
+.formDiv
+{
+    color:white;
+    font-size: 30px
+}
+.label1
+{
+    margin-right:15px
+}
+.label2
+{
+    margin-right:15px
+}
+.label3
+{
+    margin-right:30px
+}
+.label4
+{
+    padding-right: 180px
+}
+.marriedLabelDiv
+{
+    display: inline;
+    margin-left:-95px
+}
+.sexLabelDiv
+{
+    display: inline;
+    margin-left:-90px
+}
+.label5
+{
+    padding-right: 130px
+}
+.label6
+{
+    margin-right:-4px
+}
+.label7
+{
+    padding-left: 150px
+}
+.label8
+{
+    margin-right:60px
+}
+.label10
+{
+    margin-right:60px
+}
+.input1 ,.input2,.input3,.input4,.input5,.input6,.input7,.input8,.input9,.input10,.input11,.input12
+
+{
+    margin-top:20px;
+    height:20px;
+    width: 230px;
+    font-size: 18px
+}
+.nameDiv,.emailDiv,.phoneDiv,.marriedDiv,.sexDiv,.ageDiv,.dayDiv,.childDiv,.cityDiv,.addressDiv
+{
+    display: inline
+}
+.nameDiv
+{
+    margin-left: 5px
+}
+.emailDiv
+{
+    margin-left:11px   
+}
+.phoneDiv
+{
+    margin-left:-13px
+}
+.marriedDiv
+{
+    margin-left:-50px
+}
+.sexDiv
+{
+    margin-left: 30px
+}
+.ageDiv
+{
+    margin-left: 60px
+}
+.dayDiv
+{
+    margin-left:61px
+}
+.childDiv
+{
+    margin-left:-63px
+}
+.cityDiv
+{
+    margin-left:60px
+}
+.addressDiv
+{
+    margin-left:-57px
+}
+.input5
+{
+    margin-right: 150px   
+}
+   
+.input9,.input10,.input11,.input12
+{
+    width:30px;
+}
+.input1,.input2,.input3,.input4,.input5,.input6,.input7,.input8
+{
+    background-repeat: no-repeat;
+    background-position: 6px;
+    border: 1px solid #DADADA;
+    padding-left: 35px;
+    width: 310px; 
+	height: 30px; 
+    box-shadow: 0 0 10px;
+	-webkit-box-shadow:  0 0 10px;	/* for I.E */
+	-moz-box-shadow: 0 0 10px;	/* for Mozilla web browser*/
+    border-radius: 5px;
+	-webkit-border-radius: 5px;	/* for I.E */
+	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
+}
+.input1
+{
+    background-image: url(images/icon_name.png);
+}
+.input2
+{
+    background-image:url(images/email.png)
+}
+.input3
+{
+    background-image:url(images/mobile.png)
+}
+.input4
+{
+    background-image:url(images/age.png)
+}
+.input5
+{
+    background-image:url(images/age.png)
+}
+.input6
+{
+    background-image:url(images/child.png)
+}
+.input7
+{
+    background-image:url(images/city.png)
+}
+.input10
+{
+    background-image:url(images/child.png)
+}
+.input9
+{
+    background-image:url(images/city.png)
+}
+.input8
+{
+    background-image:url("images/home.png");
+}
+.button
+{
+    height:40px;
+    font-size: 18px;
+    background-color: black;
+    width: 250px;
+    margin-top: 20px;
+    margin-left:135px;
+    border-radius: 5em;
+    color:white;
+}
+.button:hover
+{
+    background-color:orange
+}
